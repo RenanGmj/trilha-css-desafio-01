@@ -3,13 +3,16 @@
     padding: 0px;
 }
 /* ESTILIZAÇÃO DA HEADER */
+.banner
+{
+    border-color: #33A8DB;
+    border-style: solid;
+}
 .banner-content
 {
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.50)0%, rgba(51, 168, 219, 0.15)50%, rgba(0, 0, 0, 0.08)100%), url('../assets/images/banner.svg'); 
     
-
-   
 
     justify-content: center;
     align-items: center;
@@ -85,7 +88,7 @@
     object-position: center;
 }
 
-/* ESTILIZAÇÃO DA MAIN */
+/* Estilização da primeira section da main */
 
 #course-content
 {
@@ -94,6 +97,9 @@
     text-align: center;
 
     background-color: black; 
+
+    border-color: #33A8DB;
+    border-style: solid;
 }
 
 #course-content h2
@@ -149,6 +155,40 @@
 .module span
 {
     color: #33A8DB;
+}
+
+
+/* Estilização da segunda section da main */
+
+#transform-world
+{
+    background-color: black;
+    background-image: url('../assets/images/woman-code.png');
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir todo o header */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+    height: 594px;
+
+    border-color: #33A8DB;
+    border-style: solid;
+
+}
+
+#transform-world p
+{
+    font-family:"Raleway", sans-serif;
+    font-size: 71px;
+    font-weight: 900;
+    color: #FFFF;
+    
+    
+    white-space: pre-line;
+    text-transform: lowercase;
+    text-shadow: #33A8DB 4px 0px;
+    margin-left: 198px;
+    margin-left: 198px;
+    padding-top: 135px;
+    position: fixed;
 }
 
 
