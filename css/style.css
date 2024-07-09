@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-content
+{
+    background-color: rgb(0, 0, 0);
+    background-image: url('../assets/images/banner.png');
+
+    background-blend-mode: luminosity;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir todo o header */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+}
+
+.banner-content h1
+{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    background: linear-gradient(to right, #33A8DB, #1472B7); /* Define o gradiente de cores */
+    -webkit-background-clip: text; /* Clipa o gradiente ao texto (webkit) */
+    -webkit-text-fill-color: transparent; /* Preenche o texto com transparência (webkit) */
+    background-clip: text; /* Clipa o gradiente ao texto */
+
+    text-transform: uppercase;
+}
+
+.banner-content p
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    white-space:pre;
+
+    text-align: center;
+    color: #FFFF;
+    
+
+    
+
+
+}
+
+.banner-content button
+{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    padding: 19px 46px;
+
+    text-transform: uppercase;
+    
+    background: linear-gradient(to right, #33A8DB, #1472B7); /* Define o gradiente de cores */
+    -webkit-background-clip: text; /* Clipa o gradiente ao texto (webkit) */
+    -webkit-text-fill-color: transparent; /* Preenche o texto com transparência (webkit) */
+    background-clip: text; /* Clipa o gradiente ao texto */
+
+    border-color: #33A8DB ;
+
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.logo img
+{
+    object-position: center;
+}
